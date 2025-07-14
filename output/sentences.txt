@@ -1,0 +1,31 @@
+30423142	miR-133	The word cloud built from 1750 sentences from 381 papers linked to the microRNA hsa-miR-133a-2 (Figure 2D) clearly highlights the known roles of miR-133 genes in both cardiac and skeletal muscle development (34,35).
+30423142	let-7	For example, the term ‘let-7’ in a paper associated with the species Homo sapiens causes the sentence to be associated with all 11 human let-7 family members.
+30423142	miR-133a-2	(D) Word cloud for hsa-miR-133a-2.
+30423142	hsa-miR-21	The top 10 ranked articles for hsa-miR-21, the number of sentences associated with the microRNA name, and other human microRNAs associated with the paper #All family members are associated with the article.
+30423142	hsa-miR-21	The gene hsa-miR-21 has the largest number of linked papers: 1559, with 16 584 sentences mentioning the microRNA.
+30423142	hsa-miR-499a	Gene Ontology annotations for hsa-miR-499a-5p Mining the scientific literature for microRNA function.
+30423142	miR-133	It also shows that miR-133 co-occurs in sentences with other microRNAs, including miR-206 and miR-499, both of which are known to regulate cardiac muscle differentiation (35,36).
+30423142	miR-1a-1	For example, mouse miR-1 family members have well-described roles in muscle development (12,13), and the read data shown for mmu-miR-1a-1 in miRBase clearly shows its high expression in both cardiac and skeletal muscle.
+30423142	miR-499a-5p	Gene Ontology annotations for hsa-miR-499a-5p Mining the scientific literature for microRNA function.
+30423142	mmu-miR-1a	For example, mouse miR-1 family members have well-described roles in muscle development (12,13), and the read data shown for mmu-miR-1a-1 in miRBase clearly shows its high expression in both cardiac and skeletal muscle.
+30423142	miR-1273	We have already used these data to highlight sequences for review, and as a result have removed members of the miR-566, miR-1273, miR-4419 and miR-6723 families from the database.
+30423142	miR-21	Titles of the top 10 articles by summed sentence score for hsa-miR-21 are shown in Table 2.
+30423142	hsa-miR-133a	(D) Word cloud for hsa-miR-133a-2.
+30423142	miR-133a-2	The word cloud built from 1750 sentences from 381 papers linked to the microRNA hsa-miR-133a-2 (Figure 2D) clearly highlights the known roles of miR-133 genes in both cardiac and skeletal muscle development (34,35).
+30423142	let-7	Each sentence was then searched for microRNA gene name mentions using regular expressions (including ‘miR-#’, ‘miRNA-#’, ‘microRNA-#‘ and the exceptional microRNA names let-7, lin-4, bantam, etc).
+30423142	hsa-miR-499a	Table 1 shows an example set of annotations for the hsa-miR-499a-5p mature microRNA.
+30423142	miR-566	We have already used these data to highlight sequences for review, and as a result have removed members of the miR-566, miR-1273, miR-4419 and miR-6723 families from the database.
+30423142	miR-4419	We have already used these data to highlight sequences for review, and as a result have removed members of the miR-566, miR-1273, miR-4419 and miR-6723 families from the database.
+30423142	miR-1	For example, mouse miR-1 family members have well-described roles in muscle development (12,13), and the read data shown for mmu-miR-1a-1 in miRBase clearly shows its high expression in both cardiac and skeletal muscle.
+30423142	bantam	(C) Word cloud for Drosophila melanogaster bantam microRNA.
+30423142	hsa-miR-499a	Gene Ontology annotations for hsa-miR-499a-5p The manual curation of information from the scientific literature provides gold-standard quality functional annotation (22).
+30423142	miR-499a-5p	Table 1 shows an example set of annotations for the hsa-miR-499a-5p mature microRNA.
+30423142	miR-6723	We have already used these data to highlight sequences for review, and as a result have removed members of the miR-566, miR-1273, miR-4419 and miR-6723 families from the database.
+30423142	miR-21	The top 10 ranked articles for hsa-miR-21, the number of sentences associated with the microRNA name, and other human microRNAs associated with the paper #All family members are associated with the article.
+30423142	miR-499a-5p	Gene Ontology annotations for hsa-miR-499a-5p The manual curation of information from the scientific literature provides gold-standard quality functional annotation (22).
+30423142	miR-21	The gene hsa-miR-21 has the largest number of linked papers: 1559, with 16 584 sentences mentioning the microRNA.
+30423142	hsa-miR-21	Titles of the top 10 articles by summed sentence score for hsa-miR-21 are shown in Table 2.
+30423142	miR-499	It also shows that miR-133 co-occurs in sentences with other microRNAs, including miR-206 and miR-499, both of which are known to regulate cardiac muscle differentiation (35,36).
+30423142	lin-4	Each sentence was then searched for microRNA gene name mentions using regular expressions (including ‘miR-#’, ‘miRNA-#’, ‘microRNA-#‘ and the exceptional microRNA names let-7, lin-4, bantam, etc).
+30423142	miR-206	It also shows that miR-133 co-occurs in sentences with other microRNAs, including miR-206 and miR-499, both of which are known to regulate cardiac muscle differentiation (35,36).
+30423142	hsa-miR-133a	The word cloud built from 1750 sentences from 381 papers linked to the microRNA hsa-miR-133a-2 (Figure 2D) clearly highlights the known roles of miR-133 genes in both cardiac and skeletal muscle development (34,35).
