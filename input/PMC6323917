@@ -1,0 +1,600 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30423142</article-id>
+      <article-id pub-id-type="pmc">6323917</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gky1141</article-id>
+      <article-id pub-id-type="publisher-id">gky1141</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Database Issue</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>miRBase: from microRNA sequences to function</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kozomara</surname>
+            <given-names>Ana</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Birgaoanu</surname>
+            <given-names>Maria</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Griffiths-Jones</surname>
+            <given-names>Sam</given-names>
+          </name>
+          <!--<email>sam.griffiths-jones@manchester.ac.uk</email>-->
+          <xref ref-type="aff" rid="AFF1"/>
+          <xref ref-type="corresp" rid="COR1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="AFF1">School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester M13 9PT, UK</aff>
+      <author-notes>
+        <corresp id="COR1">To whom correspondence should be addressed. Tel: +44 161 2755673; Email: <email>sam.griffiths-jones@manchester.ac.uk</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>08</day>
+        <month>1</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub" iso-8601-date="2018-11-13">
+        <day>13</day>
+        <month>11</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>13</day>
+        <month>11</month>
+        <year>2018</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+      <volume>47</volume>
+      <issue>Database issue</issue>
+      <issue-title>Database issue</issue-title>
+      <fpage>D155</fpage>
+      <lpage>D162</lpage>
+      <history>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>10</month>
+          <year>2018</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>24</day>
+          <month>10</month>
+          <year>2018</year>
+        </date>
+        <date date-type="received">
+          <day>15</day>
+          <month>9</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2018. Published by Oxford University Press on behalf of Nucleic Acids Research.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="cc-by" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="gky1141.pdf"/>
+      <abstract>
+        <title>Abstract</title>
+        <p>miRBase catalogs, names and distributes microRNA gene sequences. The latest release of miRBase (v22) contains microRNA sequences from 271 organisms: 38&#xA0;589 hairpin precursors and 48&#xA0;860 mature microRNAs. We describe improvements to the database and website to provide more information about the quality of microRNA gene annotations, and the cellular functions of their products. We have collected 1493 small RNA deep sequencing datasets and mapped a total of 5.5 billion reads to microRNA sequences. The read mapping patterns provide strong support for the validity of between 20% and 65% of microRNA annotations in different well-studied animal genomes, and evidence for the removal of &gt;200 sequences from the database. To improve the availability of microRNA functional information, we are disseminating Gene Ontology terms annotated against miRBase sequences. We have also used a text-mining approach to search for microRNA gene names in the full-text of open access articles. Over 500 000 sentences from 18 542 papers contain microRNA names. We score these sentences for functional information and link them with 12 519 microRNA entries. The sentences themselves, and word clouds built from them, provide effective summaries of the functional information about specific microRNAs. miRBase is publicly and freely available at <ext-link ext-link-type="uri" xlink:href="http://mirbase.org/">http://mirbase.org/</ext-link>.</p>
+      </abstract>
+      <funding-group>
+        <award-group award-type="grant">
+          <funding-source>
+            <named-content content-type="funder-name">Biotechnology and Biological Sciences Research Council</named-content>
+            <named-content content-type="funder-identifier">10.13039/501100000268</named-content>
+          </funding-source>
+          <award-id>BB/G022623/1</award-id>
+        </award-group>
+      </funding-group>
+      <counts>
+        <page-count count="8"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="SEC1">
+      <title>INTRODUCTION</title>
+      <p>miRBase is the primary public repository and online resource for microRNA sequences and annotation (<ext-link ext-link-type="uri" xlink:href="http://mirbase.org/">http://mirbase.org/</ext-link>). Established in 2002 (then called the microRNA Registry), miRBase is responsible for microRNA gene nomenclature and has been assigning gene names for novel microRNA discoveries since that time. The microRNA gene naming scheme has been discussed in previous miRBase publications (<xref rid="B1" ref-type="bibr">1&#x2013;5</xref>), and on the miRBase blog (<ext-link ext-link-type="uri" xlink:href="http://mirbase.org/blog/">http://mirbase.org/blog/</ext-link>). The miRBase website provides a wide-range of information on published microRNAs, including their sequences, their biogenesis precursors, genome coordinates and context, literature references, deep sequencing expression data and community-driven annotation. miRBase also acts as a portal for third party information about microRNA genes and sequence, linking out to other resources such as those that include predicted and experimentally validated targets of microRNAs.</p>
+      <p>The latest release of the miRBase database (v22) contains 38 589 entries representing hairpin precursor microRNAs, from 271 organisms. This represents an increase in sequences of more than a third over the previous release. Those hairpin precursors produce a total of 48 860 different mature microRNA sequences. Vertebrate genomes contain thousands of microRNAs: for example, the human genome contains 1917 annotated hairpin precursors, and 2654 mature sequences. Well-annotated genomes of both invertebrates and plants contain hundreds of microRNAs (for example, <italic>Drosophila melanogaster</italic>: 258 hairpins, 469 mature sequences; <italic>Caenorhabditis elegans</italic>: 253 hairpins, 437 mature sequences; <italic>Arabidopsis thaliana</italic>: 326 hairpins, 428 mature sequences).</p>
+      <p>We discuss here recent advances and updates to the miRBase database, focusing on efforts to provide the user with more information about the quality of microRNA annotations, and the biological function of microRNA sequences.</p>
+    </sec>
+    <sec id="SEC2">
+      <title>QUALITY OF microRNA ANNOTATIONS</title>
+      <p>The primary source of sequence data in miRBase is author submission. The overwhelming majority of microRNAs are discovered by small RNA deep sequencing approaches. As the number and depth of sequencing experiments has increased, microRNAs expressed at ever-lower abundance and with ever-more specific expression patterns have been annotated and submitted to miRBase. The number of researchers engaged in microRNA discovery has also increased, and the stringency of the criteria used by authors to annotate microRNAs has become more variable. It is therefore more and more challenging to distinguish <italic>bona fide</italic> microRNAs from mis-annotated fragments of other RNA species, for example. The variable quality of microRNA annotations has been discussed in the literature (see e.g.&#xA0;(<xref rid="B6" ref-type="bibr">6&#x2013;10</xref>)), and concerns over annotation quality are of course of critical interest to the microRNA community. It is important to note that miRBase provides only minimal gate-keeping for quality of microRNA annotation at the point of submission. Rather, the responsibility for accuracy falls on submitting authors, and reviewers and editors of publications. miRBase aims to provide <italic>post hoc</italic> analyses of published microRNA sequences, such that users can assess annotation quality and select the subset of data that best matches their requirements. These analyses also trigger manual review of dubious annotations, which may lead to removal of sequences from the database. Website searches for obsolete microRNA names return the last version of the entry, and a clear reason for its removal.</p>
+      <p>Small RNA deep sequencing datasets, deposited in public databases of sequencing data such as SRA and GEO, contain enormous quantities of information about microRNA expression and biogenesis in many organisms, across developmental time, in different tissues, and in response to different external factors. The metadata deposited with RNAseq experiments does not always make it straightforward to distinguish small RNA deep sequencing datasets from whole transcriptome sets, but at the time of writing, querying the SRA database for datasets with the strategy &#x2018;miRNA-seq&#x2019; returns 33,691 results. Around 14 000 of those datasets are from human, 5000 from mouse, 600 from <italic>A. thaliana</italic>, 500 from <italic>D. melanogaster</italic>&#xA0;and 300 from <italic>C. elegans</italic>.</p>
+      <p>Since 2010, miRBase has been collecting small RNA deep sequencing datasets, mapping reads to microRNA sequences, and showing the read mapping profiles on the website. These views have been extremely useful for examining the expression profiles of microRNAs. The canonical mechanism of microRNA processing by Drosha and Dicer proteins leads to a very specific pattern of short reads mapped across a true microRNA locus, as discussed previously (<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B2" ref-type="bibr">2</xref>,<xref rid="B11" ref-type="bibr">11</xref>). For example, <italic>bona fide</italic> microRNA genes are expected to have reads mapping to both arms of the hairpin precursor, mature microRNAs from the two arms are expected to form a duplex with 2 nt 3&#x2032; overhangs, and the 5&#x2032; end of each mature microRNA is expected to be processed with high consistency (<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B11" ref-type="bibr">11</xref>). We have separated out a subset of microRNAs that we designate as &#x2018;high confidence&#x2019; based on support from the read data (<xref rid="B1" ref-type="bibr">1</xref>). A small number of sequences have mapped read patterns that are not consistent with their annotation as a microRNA, and we have been removing these entries from miRBase &#x2013; 87 sequences were removed between releases 21 and 22. However, for &#x223C;90% of microRNA annotations across the whole database, we have previously been unable to assess the confidence in their annotation due to lack of read data. Even in important animal model organisms (human, mouse, <italic>D. melanogaster, C. elegans</italic>), we had not collated enough read data to support or refute the validity of between 30% and 70% of microRNA annotations.</p>
+      <p>We are addressing this problem by increasing the number of datasets that we are mapping to miRBase microRNA sequences, from 426 in release 21 to 1493 in release 22. In total, these datasets contain 5.5 billion reads that map to microRNA loci, a 5-fold increase over the previous release. This increased coverage allows us to re-calibrate the criteria that we are using to call &#x2018;high confidence&#x2019; microRNAs, and re-calculate that dataset. The criteria we are currently using are:
+<list list-type="bullet"><list-item><p>The microRNA hairpin has mature microRNA sequences annotated from both arms.</p></list-item><list-item><p>The duplex of mature microRNAs exhibits a 3&#x2032; overhang of 0&#x2013;4 nt.</p></list-item><list-item><p>Each mature microRNA has &#x2265;20 overlapping reads.</p></list-item><list-item><p>&#x2265;50% of the reads mapping to each mature microRNA have the same 5&#x2032; end.</p></list-item></list></p>
+      <p>Despite the increased stringency of these rules (we previously required only 10 reads per arm), the proportion of microRNA annotations that are classified as &#x2018;high confidence&#x2019; in many well-studied organisms has increased (see Figure <xref ref-type="fig" rid="F1">1</xref>). For example, 26% of human microRNA annotations are classified as &#x2018;high confidence&#x2019; in miRBase 22, compared with only 16% in miRBase 21.</p>
+      <fig id="F1" orientation="portrait" position="float">
+        <label>Figure 1.</label>
+        <caption>
+          <p>The proportion of microRNA sequences annotated as high confidence in release 22 (black) and release 21 (grey). All species with 30 or more small RNA deep sequencing datasets in miRBase 22 are shown. Species abbreviations: dre: <italic>Danio rerio</italic>; rno: <italic>Rattus norvegicus</italic>; dme: <italic>Drosophila melanogaster</italic>; cel: <italic>Caenorhabditis elegans</italic>; mmu: <italic>Mus musculus</italic>, zma: <italic>Zea mays</italic>; hsa: <italic>Homo sapiens</italic>; bta: <italic>Bos taurus</italic>; tae: <italic>Triticum aestivum</italic>.</p>
+        </caption>
+        <graphic xlink:href="gky1141fig1"/>
+      </fig>
+      <p>As previously, it is important to note that the main reason that microRNAs are not classified as &#x2018;high confidence&#x2019; is lack of data. For example, 1225 human microRNAs (64%) do not have &#x2265;20 reads associated with each arm in the datasets that we have collected. Lack of data is not sufficient to assert that these microRNAs are not valid annotations. However, some microRNA annotations have lots of mapped reads, but the pattern of those reads does not support the processing of a microRNA by Drosha and Dicer. We have therefore introduced a &#x2018;low confidence&#x2019; classification, currently defined using the following rules:
+<list list-type="bullet"><list-item><p>More than 100 reads map across the microRNA hairpin locus.</p></list-item><list-item><p>&lt;30% of reads mapping to the more abundant arm of the hairpin have the same 5&#x2032; end.</p></list-item></list></p>
+      <p>A total of 245 annotations are currently flagged as &#x2018;low confidence&#x2019; in the database, including 17 human entries. We are in the process of manually reviewing each one, and removing from miRBase where appropriate.</p>
+      <p>We previously introduced a simple voting feature, allowing miRBase users to vote for or against the validity of any given microRNA annotation (<xref rid="B1" ref-type="bibr">1</xref>). This feature has been well-used: over 13 000 votes have been cast across over 4000 different microRNA sequences from 199 species. For example, in human, 7644 votes are registered against 1195 of the 1917 sequences (62%). In total, 725 microRNA sequences have an overall negative voting score. 208 of those negative scores are human sequences, and 19 of those have a score of &#x2013;5 or less. We have already used these data to highlight sequences for review, and as a result have removed members of the mir-566, mir-1273, mir-4419 and mir-6723 families from the database. 10 additional families highlighted in this way are flagged for future removal. These growing data supplement our automated confidence assignments, and the visual representations of read data, to allow users to quickly judge the quality of any microRNA annotation in miRBase.</p>
+    </sec>
+    <sec id="SEC3">
+      <title>BIOLOGICAL FUNCTIONS OF microRNAs</title>
+      <p>The spatial and temporal expression of microRNAs inferred from deep sequencing datasets gives clues to their function. For example, mouse mir-1 family members have well-described roles in muscle development (<xref rid="B12" ref-type="bibr">12</xref>,<xref rid="B13" ref-type="bibr">13</xref>), and the read data shown for mmu-mir-1a-1 in miRBase clearly shows its high expression in both cardiac and skeletal muscle.</p>
+      <p>However, extensive functional annotation of microRNAs has generally been lacking in miRBase. For example, the scientific articles cited for each microRNA entry generally refer to the microRNA discovery, rather than to function. Information about the functional roles of microRNAs is available elsewhere in a variety of forms. For example, there are a number of well-established and well-used databases of both predicted and validated microRNA targets. For example, TargetScan (<xref rid="B14" ref-type="bibr">14</xref>), DIANA-microT (<xref rid="B15" ref-type="bibr">15</xref>)&#xA0;and miRDB (<xref rid="B16" ref-type="bibr">16</xref>) are amongst many resources that provide web interfaces to search and view the predicted target sites of most microRNAs. These resources often update their predictions in line with new microRNA releases through miRBase. The TarBase (<xref rid="B17" ref-type="bibr">17</xref>) and miRTarBase (<xref rid="B18" ref-type="bibr">18</xref>) databases curate and provide lists of microRNA targets that have some experimental support. miRBase does not curate or collate predicted or validated target sets, but rather links from entries to external target resources. We have worked to improve and increase these links from miRBase. Over a fifth of mature microRNAs (10 609/48 860) in miRBase have links to target predictions, and 4154 (8.5%) link out to validated target sets. Those proportions are much higher for the best-studied and most viewed organisms &#x2013; for example 2578 and 2599 of the 2654 human mature sequences in miRBase have links to predicted and validated targets respectively.</p>
+      <sec id="SEC3-1">
+        <title>Gene Ontology</title>
+        <p>An enormous quantity of functional information is locked up in the scientific literature. As of Sept 2018, over 80 000 articles in PubMed contain the term &#x2018;microRNA&#x2019; or &#x2018;miRNA&#x2019; in the title, keyword or abstract, including 13 726 published in 2017. Extracting biological information from these papers in any kind of structured way is difficult and time-consuming.</p>
+        <p>The Gene Ontology (GO) provides a controlled and flexible structure by which functional information can be attached to genes (<xref rid="B19" ref-type="bibr">19</xref>,<xref rid="B20" ref-type="bibr">20</xref>). The widespread assignment of GO terms to protein-coding genes has been one of the success stories of bioinformatics and genomics, driven by the adoption of GO as a standard amongst model organism and genome browser resources, and enormous annotation efforts by the GO Consortium (<xref rid="B20" ref-type="bibr">20</xref>). The manual curation of terms for a given gene involves an expert biocurator reading scientific papers, extracting and interpreting statements related to the function of the gene of interest, and attaching that information to the gene in the form of terms from the structured ontology. However, until recently, there had been little coordinated effort to annotate GO terms to non-protein-coding genes. These data have not therefore been widely available in bioinformatics databases or resources.</p>
+        <p>Recently, the UCL Functional Gene Annotation team has embarked on an effort to annotate microRNAs with GO terms (<xref rid="B21" ref-type="bibr">21</xref>,<xref rid="B22" ref-type="bibr">22</xref>). In total, the team have annotated over 500 mature microRNAs from human, mouse and rat with nearly 5000 GO terms, over 3000 of which are linked with human microRNAs (<xref rid="B22" ref-type="bibr">22</xref>). They have also annotated information on &#x223C;2500 experimentally-validated targets of mature microRNAs. These datasets of microRNA GO annotations, together with annotations that are starting to be deposited by resources such as MGI (<xref rid="B23" ref-type="bibr">23</xref>) and RNAcentral (<xref rid="B24" ref-type="bibr">24</xref>), are made available through the QuickGO resource at EBI (<xref rid="B25" ref-type="bibr">25</xref>). RNA genes in QuickGO are identified using sequence identifiers from the RNAcentral database. Using the EBI webservices and an RNAcentral-provided mapping from miRBase accessions to RNAcentral identifiers, we are able to extract the set of GO annotations associated with any miRBase entry, for display on the miRBase entry pages. Table <xref rid="tbl1" ref-type="table">1</xref> shows an example set of annotations for the hsa-miR-499a-5p mature microRNA. The annotations show that the microRNA directly regulates the genes SOX6 and KCNN3, and has a role in cardiac muscle cell differentiation (<xref rid="B26" ref-type="bibr">26</xref>,<xref rid="B27" ref-type="bibr">27</xref>). These high-value manually-annotated datasets complement the more extensive automated target prediction and validation datasets discussed above.</p>
+        <table-wrap id="tbl1" orientation="portrait" position="float">
+          <label>Table 1.</label>
+          <caption>
+            <p>Gene Ontology annotations for hsa-miR-499a-5p</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Qualifier</th>
+                <th rowspan="1" colspan="1">GO term</th>
+                <th rowspan="1" colspan="1">Evidence</th>
+                <th rowspan="1" colspan="1">Notes</th>
+                <th rowspan="1" colspan="1">Reference</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic>involved_in</italic>
+</td>
+                <td rowspan="1" colspan="1">GO:0014883<break/>transition between fast and slow fiber</td>
+                <td rowspan="1" colspan="1">ECO:0000250<break/>sequence similarity evidence used in manual assertion</td>
+                <td rowspan="1" colspan="1">
+<italic>occurs_in</italic>
+<break/>UBERON:0001389<break/>soleus muscle</td>
+                <td rowspan="1" colspan="1">GO_REF:0000024<break/>Manual transfer of experimentally-verified manual GO annotation data to orthologs by curator judgment of sequence similarity</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic>involved_in</italic>
+</td>
+                <td rowspan="1" colspan="1">GO:0035195<break/>gene silencing by miRNA</td>
+                <td rowspan="1" colspan="1">ECO:0000314<break/>direct assay evidence used in manual assertion</td>
+                <td rowspan="1" colspan="1">
+<italic>regulates_expression_of</italic>
+<break/>ENSG00000110693<break/>SOX6<break/><italic>occurs_in</italic><break/>CL:0010021<break/>cardiac myoblast<break/><italic>regulates</italic><break/>GO:0055007<break/>cardiac muscle cell differentiation</td>
+                <td rowspan="1" colspan="1">PMID:20081117</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic>involved_in</italic>
+</td>
+                <td rowspan="1" colspan="1">GO:0035195<break/>gene silencing by miRNA</td>
+                <td rowspan="1" colspan="1">ECO:0000314<break/>direct assay evidence used in manual assertion</td>
+                <td rowspan="1" colspan="1">
+<italic>regulates_expression_of</italic>
+<break/>ENSG00000143603<break/>KCNN3</td>
+                <td rowspan="1" colspan="1">PMID:23499625</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic>involved_in</italic>
+</td>
+                <td rowspan="1" colspan="1">GO:2000727<break/>positive regulation of cardiac muscle cell differentiation</td>
+                <td rowspan="1" colspan="1">ECO:0000314<break/>direct assay evidence used in manual assertion</td>
+                <td rowspan="1" colspan="1">-</td>
+                <td rowspan="1" colspan="1">PMID:20081117</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic>involved_in</italic>
+</td>
+                <td rowspan="1" colspan="1">GO:2000818<break/>negative regulation of myoblast proliferation</td>
+                <td rowspan="1" colspan="1">ECO:0000314<break/>direct assay evidence used in manual assertion</td>
+                <td rowspan="1" colspan="1">
+<italic>results_in_division_of</italic>
+<break/>CL:0010021<break/>cardiac myoblast</td>
+                <td rowspan="1" colspan="1">PMID:20081117</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic>enables</italic>
+</td>
+                <td rowspan="1" colspan="1">GO:1903231<break/>mRNA binding involved in posttranscriptional gene silencing</td>
+                <td rowspan="1" colspan="1">ECO:0000314<break/>direct assay evidence used in manual assertion</td>
+                <td rowspan="1" colspan="1">
+<italic>has_direct_input</italic>
+<break/>ENSG00000110693<break/>SOX6</td>
+                <td rowspan="1" colspan="1">PMID:20081117</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">
+<italic>enables</italic>
+</td>
+                <td rowspan="1" colspan="1">GO:1903231<break/>mRNA binding involved in posttranscriptional gene silencing</td>
+                <td rowspan="1" colspan="1">ECO:0000314<break/>direct assay evidence used in manual assertion</td>
+                <td rowspan="1" colspan="1">
+<italic>has_direct_input</italic>
+<break/>ENSG00000143603<break/>KCNN3</td>
+                <td rowspan="1" colspan="1">PMID:23499625</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+      <sec id="SEC3-2">
+        <title>Mining the scientific literature for microRNA function</title>
+        <p>The manual curation of information from the scientific literature provides gold-standard quality functional annotation (<xref rid="B22" ref-type="bibr">22</xref>). However, this work is obviously enormously labour-intensive, and as a result, less than 10% of mature miRNA sequences in human, mouse and rat currently have this level of information. It is therefore useful to supplement such efforts with automated text-mining approaches. Automated extraction of functional annotation is difficult. Recognizing gene names, or even species names, in full-text articles is surprisingly challenging (<xref rid="B28" ref-type="bibr">28&#x2013;30</xref>). For example, many gene names are common English words, a problem that is particularly acute in species such as <italic>D. melanogaster</italic>. However, with just a handful of exceptions, microRNA gene names, as assigned by miRBase, have been standardized in format in the scientific literature since 2002. Almost all microRNA gene names are therefore unambiguous and straightforward to recognize automatically in full-text searches.</p>
+        <p>We have adopted the following procedure to mine the scientific literature for functional information about microRNAs. We have downloaded the PubMed Central open access corpus of literature (<ext-link ext-link-type="ftp" xlink:href="ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/">ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/</ext-link>; 21 July&#xA0;2018). Initially, we are working with the for-commercial-use subset, containing 1 252 865 full-text articles, but will be extending the analysis to include the non-commercial-use dataset. The Organisms database (<ext-link ext-link-type="uri" xlink:href="https://organisms.jensenlab.org/">https://organisms.jensenlab.org/</ext-link>; 21 July&#xA0;2018) was used to associate each full-text article with a list of organisms (<xref rid="B30" ref-type="bibr">30</xref>). Text from the abstract, introduction, results and discussion sections was extracted from the XML file for each publication and split into sentences using the python library ntlk.tokenize (v.3.3). Each sentence was then searched for microRNA gene name mentions using regular expressions (including &#x2018;miR-#&#x2019;, &#x2018;miRNA-#&#x2019;, &#x2018;microRNA-#&#x2018; and the exceptional microRNA names let-7, lin-4, bantam, etc). 18 542 of the articles analysed (1.48%) contain a microRNA gene name. The top 20 species with which articles mentioning microRNA gene names have been associated are shown in Figure <xref ref-type="fig" rid="F2">2A</xref>.</p>
+        <fig id="F2" orientation="portrait" position="float">
+          <label>Figure 2.</label>
+          <caption>
+            <p>MicroRNA functional information mined from open access papers. (<bold>A</bold>) The top 20 species according to the number of open access papers associated with their microRNAs. (<bold>B</bold>) The proportion of microRNAs from selected model organisms that have papers and sentences associated. (<bold>C</bold>) Word cloud for <italic>Drosophila</italic> melanogaster bantam microRNA. (<bold>D</bold>) Word cloud for hsa-mir-133a-2. Species abbreviations: hsa: <italic>Homo sapiens</italic>, mmu: <italic>Mus musculus</italic>, rno: <italic>Rattus norvegicus</italic>; dme: <italic>Drosophila melanogaster</italic>; ath: <italic>Arabidopsis thaliana</italic>; osa: <italic>Oryza sativa</italic>; dre: <italic>Danio rerio</italic>; bta: <italic>Bos taurus</italic>; gga: <italic>Gallus gallus</italic>; cel: <italic>Caenorhabditis elegans</italic>; ssc: <italic>Sus scrofa</italic>; zma: <italic>Zea mays</italic>; sly: <italic>Solanum lycopersicum</italic>; tae: <italic>Triticum aestivum</italic>; gma: <italic>Glycine max</italic>; oar: <italic>Ovis aries</italic>; ghr: <italic>Gossypium hirsutum</italic>; hvu: <italic>Hordeum vulgare</italic>; ocu: <italic>Oryctolagus cuniculus</italic>; chi: <italic>Capra hircus</italic>.</p>
+          </caption>
+          <graphic xlink:href="gky1141fig2"/>
+        </fig>
+        <p>To separate real sentences from extracts of tables and references, sentences containing &gt;25 different microRNA gene names or &gt;200 words in total were eliminated. The remaining sentences containing microRNA gene names were then associated with the species identified for that paper in the Organisms database. There are two obvious sources of mis-assignment of papers to microRNA genes in a specific organism:
+<list list-type="bullet"><list-item><p>Many papers are associated with more than one species. Sentences not containing the name of the species for a given microRNA, but containing names or abbreviations of names of other species, were therefore excluded. However, if a sentence contains no species name or abbreviation, we cannot tell whether the microRNA gene name refers to one or all of the species linked with the paper. In these cases, we currently assign the paper and sentences to all associated species.</p></list-item><list-item><p>Many microRNA mentions in papers are at the gene family level. Where we cannot tell which family member a sentence refers to, we assign the paper and sentence to all family members in the relevant organism. For example, the term &#x2018;let-7&#x2019; in a paper associated with the species <italic>Homo sapiens</italic> causes the sentence to be associated with all 11 human let-7 family members.</p></list-item></list></p>
+        <p>We have used a simple scoring scheme to rank microRNA name-containing sentences according to the inclusion of possible functional terms. Keywords related to microRNA function (e.g. &#x2018;expression&#x2019;, &#x2018;target&#x2019;, &#x2018;regulate&#x2019;, &#x2018;inhibit&#x2019;) contribute a positive score, while negative scores are triggered by keywords linked to measurements, calculations or experimental approaches. The term list will be constantly refined to generate the most useful sentence ranking. The papers associated with a microRNA are ranked according to the sum of the sentence scores.</p>
+        <p>After filtering, a total of 554 287 sentences have been associated with 12 519 microRNAs. The proportion of microRNA genes that have papers and sentences associated varies across the well-studied model organisms (see Figure <xref ref-type="fig" rid="F2">2B</xref>). For example, 73% of human microRNA genes (1401/1917) have associated papers and sentences. The gene hsa-mir-21 has the largest number of linked papers: 1559, with 16 584 sentences mentioning the microRNA. Titles of the top 10 articles by summed sentence score for hsa-mir-21 are shown in Table <xref rid="tbl2" ref-type="table">2</xref>.</p>
+        <table-wrap id="tbl2" orientation="portrait" position="float">
+          <label>Table 2.</label>
+          <caption>
+            <p>The top 10 ranked articles for hsa-mir-21, the number of sentences associated with the microRNA name, and other human microRNAs associated with the paper</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Pubmed ID</th>
+                <th rowspan="1" colspan="1">Article title</th>
+                <th rowspan="1" colspan="1">Sentences</th>
+                <th rowspan="1" colspan="1">Other human miRNAs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">22685542</td>
+                <td rowspan="1" colspan="1">MicroRNA-21 governs TORC1 activation in renal cancer cell proliferation and invasion</td>
+                <td rowspan="1" colspan="1">224</td>
+                <td rowspan="1" colspan="1">&#x2013;</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">26975392</td>
+                <td rowspan="1" colspan="1">Relevance of miR-21 in regulation of tumor suppressor gene PTEN in human cervical cancer cells</td>
+                <td rowspan="1" colspan="1">145</td>
+                <td rowspan="1" colspan="1">let-7a-1, let-7a-2, let-7a-3, mir-214</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">20113523</td>
+                <td rowspan="1" colspan="1">MicroRNA-21 inhibitor sensitizes human glioblastoma cells U251 (PTEN-mutant) and LN229 (PTEN-wild type) to taxol</td>
+                <td rowspan="1" colspan="1">116</td>
+                <td rowspan="1" colspan="1">mir-221, mir-222, mir-328, mir-451a, mir-451b</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">25058005</td>
+                <td rowspan="1" colspan="1">Alteration in Mir-21/PTEN expression modulates gefitinib resistance in non-small cell lung cancer</td>
+                <td rowspan="1" colspan="1">109</td>
+                <td rowspan="1" colspan="1">mir-181b-1, mir-181b-2, mir-214,</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">26160841</td>
+                <td rowspan="1" colspan="1">Inhibition of miR-21 restores RANKL/OPG ratio in multiple myeloma-derived bone marrow stromal cells and impairs the resorbing activity of mature osteoclasts</td>
+                <td rowspan="1" colspan="1">114</td>
+                <td rowspan="1" colspan="1">mir-29b-1, mir-29b-2, mir-34a, mir-221, mir-222, mir-9718</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">22931209</td>
+                <td rowspan="1" colspan="1">miRNA-21 is developmentally regulated in mouse brain and is co-expressed with SOX2 in glioma</td>
+                <td rowspan="1" colspan="1">119</td>
+                <td rowspan="1" colspan="1">mir-16-1, mir-16-2, mir-29a, mir-29b-1, mir-29b-2</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">23717555</td>
+                <td rowspan="1" colspan="1">4-HNE increases intracellular ADMA levels in cultured HUVECs: evidence for miR-21-dependent mechanisms</td>
+                <td rowspan="1" colspan="1">97</td>
+                <td rowspan="1" colspan="1">-</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">21544242</td>
+                <td rowspan="1" colspan="1">MiR-21 induced angiogenesis through AKT and ERK activation and HIF-1&#x3B1; expression</td>
+                <td rowspan="1" colspan="1">81</td>
+                <td rowspan="1" colspan="1">let-7<sup>#</sup>, mir-27b, mir-130a, mir-126, mir-296, mir-378<sup>#</sup></td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">23082189</td>
+                <td rowspan="1" colspan="1">Mechanical stretch modulates microRNA 21 expression, participating in proliferation and apoptosis in cultured human aortic smooth muscle cells</td>
+                <td rowspan="1" colspan="1">93</td>
+                <td rowspan="1" colspan="1">mir-19a, mir-23b, mir-26a-1, mir-26a-2</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">23991015</td>
+                <td rowspan="1" colspan="1">MicroRNA-21 in pancreatic ductal adenocarcinoma tumor-associated fibroblasts promotes metastasis</td>
+                <td rowspan="1" colspan="1">113</td>
+                <td rowspan="1" colspan="1">mir-122</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="T2TFN1">
+              <p>#All family members are associated with the article.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>We have built word cloud representations of the complete set of sentences associated with each microRNA, using the R packages tm and wordcloud. The tm package is used to remove English language stop words, and common scientific terms that obscure the more useful functional information are also curated and removed (e.g. &#x2018;expressed&#x2019;, &#x2018;cell&#x2019;, &#x2018;sequence&#x2019;, &#x2018;gene&#x2019;). Two example word clouds are shown in Figure <xref ref-type="fig" rid="F2">2</xref>. These images give an immediate visual summary of the keywords associated with a given microRNA. For example, the <italic>D. melanogaster</italic> bantam word cloud (Figure <xref ref-type="fig" rid="F2">2C</xref>) is built from 712 sentences from 108 open access papers. The word cloud highlights a number of terms related to its role in regulating the neural stem cell proliferation, its key apoptotic target gene hid, and its links with the hippo pathway (<xref rid="B31" ref-type="bibr">31&#x2013;33</xref>). The word cloud built from 1750 sentences from 381 papers linked to the microRNA hsa-mir-133a-2 (Figure <xref ref-type="fig" rid="F2">2D</xref>) clearly highlights the known roles of mir-133 genes in both cardiac and skeletal muscle development (<xref rid="B34" ref-type="bibr">34</xref>,<xref rid="B35" ref-type="bibr">35</xref>). It also shows that mir-133 co-occurs in sentences with other microRNAs, including mir-206 and mir-499, both of which are known to regulate cardiac muscle differentiation (<xref rid="B35" ref-type="bibr">35</xref>,<xref rid="B36" ref-type="bibr">36</xref>).</p>
+        <p>A new interface to the papers and sentences associated with each microRNA has been built for the miRBase website. These pages and the associated word clouds are prominently linked from each microRNA entry page. Currently, we show word clouds only for microRNAs that have 10 or more associated sentences. We hope that this interface provides an efficient and useful first view of the functional roles of a microRNA, and an easy way to identify and access the most informative scientific articles about microRNA function for deeper exploration. For example, we envisage that this interface will be useful for fast identification of interesting microRNAs from a list of candidates resulting from a differential expression experiment. We also hope that it will prove a useful tool for expert biocurators who produce gold-standard functional annotation datasets (see above), helping them to quickly access the most useful articles.</p>
+      </sec>
+    </sec>
+    <sec id="SEC4">
+      <title>FUTURE DEVELOPMENTS</title>
+      <p>The three datatypes described here&#x2014;deep sequencing data, GO annotations, and open access articles&#x2014;are all expected to grow rapidly. Despite our focus on increasing the coverage of small RNA deep sequencing datasets represented in miRBase, we have only collected around 5% of the available data. We will therefore prioritise identifying and incorporating those datasets that will help us to assess the validity of the widest set of miRBase entries. For the GO annotations, the use of QuickGO webservices to build the available data into miRBase web pages means that new annotations and edits will be visible in miRBase as they are made. We will also update our analysis of open access papers, including the non-commercial-use dataset, and new papers as they are published.</p>
+      <p>We are particularly keen to further develop the text-mining approaches to extract functional information. The sentence-scoring scheme will be continuously adapted and improved to rank sentences and papers in the most useful way. However, no automated scoring function will match a biologist's ability to assess the usefulness of a given sentence or paper. We are therefore considering integrating a community feedback feature into the sentence scoring. For example, users of miRBase could vote sentences up and down according to the quality of biological information they provide.</p>
+    </sec>
+    <sec id="SEC5">
+      <title>DATA AVAILABILITY</title>
+      <p>All miRBase data are publicly and freely available under the Creative Commons Zero license. Data are available for bulk download from <ext-link ext-link-type="ftp" xlink:href="ftp://mirbase.org/">ftp://mirbase.org/</ext-link> and on the web at <ext-link ext-link-type="uri" xlink:href="http://mirbase.org/">http://mirbase.org/</ext-link>. Feedback on any aspect of the miRBase database, and discussion of novel microRNA sequence names, are welcome by email to <email>mirbase@manchester.ac.uk</email>.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGEMENTS</title>
+      <p>We thank Matthew Ronshaugen, Dave Gerrard and Mark Reardon for helpful comments on the manuscript, and MR for discussions about text-mining approaches. We also thank Rachael Huntley, the UCL Functional Gene Annotation team, and Tony Sawford for the annotation of GO terms to microRNAs, and help with their integration into miRBase.</p>
+    </ack>
+    <sec id="SEC6">
+      <title>FUNDING</title>
+      <p>Biotechnology and Biological Sciences Research Council [BB/G022623/1]. The open access publication charge for this paper has been waived by Oxford University Press - <italic>NAR</italic> Editorial Board members are entitled to one free paper per year in recognition of their work on behalf of the journal.</p>
+      <p>
+<italic>Conflict of interest statement</italic>. None declared.</p>
+    </sec>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Kozomara</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Griffiths-Jones</surname><given-names>S.</given-names></name></person-group>
+<article-title>miRBase: annotating high confidence microRNAs using deep sequencing data</article-title>. <source>Nucleic Acids Res.</source><year>2014</year>; <volume>42</volume>:<fpage>D68</fpage>&#x2013;<lpage>D73</lpage>.<pub-id pub-id-type="pmid">24275495</pub-id></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <label>2.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Kozomara</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Griffiths-Jones</surname><given-names>S.</given-names></name></person-group>
+<article-title>miRBase: integrating microRNA annotation and deep-sequencing data</article-title>. <source>Nucleic Acids Res.</source><year>2011</year>; <volume>39</volume>:<fpage>D152</fpage>&#x2013;<lpage>D157</lpage>.<pub-id pub-id-type="pmid">21037258</pub-id></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <label>3.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Griffiths-Jones</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Saini</surname><given-names>H.K.</given-names></name>, <name name-style="western"><surname>van&#xA0;Dongen</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Enright</surname><given-names>A.J.</given-names></name></person-group>
+<article-title>miRBase: tools for microRNA genomics</article-title>. <source>Nucleic Acids Res.</source><year>2008</year>; <volume>36</volume>:<fpage>D154</fpage>&#x2013;<lpage>D158</lpage>.<pub-id pub-id-type="pmid">17991681</pub-id></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <label>4.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Griffiths-Jones</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Grocock</surname><given-names>R.J.</given-names></name>, <name name-style="western"><surname>van&#xA0;Dongen</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Bateman</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Enright</surname><given-names>A.J.</given-names></name></person-group>
+<article-title>miRBase: microRNA sequences, targets and gene nomenclature</article-title>. <source>Nucleic Acids Res.</source><year>2006</year>; <volume>34</volume>:<fpage>D140</fpage>&#x2013;<lpage>D144</lpage>.<pub-id pub-id-type="pmid">16381832</pub-id></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <label>5.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Griffiths-Jones</surname><given-names>S.</given-names></name></person-group>
+<article-title>The microRNA registry</article-title>. <source>Nucleic Acids Res.</source><year>2004</year>; <volume>32</volume>:<fpage>D109</fpage>&#x2013;<lpage>D1011</lpage>.<pub-id pub-id-type="pmid">14681370</pub-id></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <label>6.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Axtell</surname><given-names>M.J.</given-names></name>, <name name-style="western"><surname>Meyers</surname><given-names>B.C.</given-names></name></person-group>
+<article-title>Revisiting criteria for plant miRNA annotation in the era of big data</article-title>. <source>Plant Cell</source>. <year>2018</year>; <volume>30</volume>:<fpage>272</fpage>&#x2013;<lpage>284</lpage>.<pub-id pub-id-type="pmid">29343505</pub-id></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <label>7.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Ludwig</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Becker</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Schumann</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Speer</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Fehlmann</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Keller</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Meese</surname><given-names>E.</given-names></name></person-group>
+<article-title>Bias in recent miRBase annotations potentially associated with RNA quality issues</article-title>. <source>Sci. Rep.</source><year>2017</year>; <volume>7</volume>:<fpage>5162</fpage>.<pub-id pub-id-type="pmid">28701729</pub-id></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <label>8.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Fromm</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Billipp</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Peck</surname><given-names>L.E.</given-names></name>, <name name-style="western"><surname>Johansen</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Tarver</surname><given-names>J.E.</given-names></name>, <name name-style="western"><surname>King</surname><given-names>B.L.</given-names></name>, <name name-style="western"><surname>Newcomb</surname><given-names>J.M.</given-names></name>, <name name-style="western"><surname>Sempere</surname><given-names>L.F.</given-names></name>, <name name-style="western"><surname>Flatmark</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Hovig</surname><given-names>E.</given-names></name><etal/></person-group>
+<article-title>A uniform system for the annotation of vertebrate microRNA genes and the evolution of the human microRNAome</article-title>. <source>Annu. Rev. Genet.</source><year>2015</year>; <volume>49</volume>:<fpage>213</fpage>&#x2013;<lpage>242</lpage>.<pub-id pub-id-type="pmid">26473382</pub-id></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <label>9.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Taylor</surname><given-names>R.S.</given-names></name>, <name name-style="western"><surname>Tarver</surname><given-names>J.E.</given-names></name>, <name name-style="western"><surname>Hiscock</surname><given-names>S.J.</given-names></name>, <name name-style="western"><surname>Donoghue</surname><given-names>P.C.J.</given-names></name></person-group>
+<article-title>Evolutionary history of plant microRNAs</article-title>. <source>Trends Plant Sci.</source><year>2014</year>; <volume>19</volume>:<fpage>175</fpage>&#x2013;<lpage>182</lpage>.<pub-id pub-id-type="pmid">24405820</pub-id></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <label>10.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>X.S.</given-names></name></person-group>
+<article-title>Systematic curation of miRBase annotation using integrated small RNA high-throughput sequencing data for C. elegans and Drosophila</article-title>. <source>Front. Genet.</source><year>2011</year>; <volume>2</volume>:<fpage>25</fpage>.<pub-id pub-id-type="pmid">22303321</pub-id></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <label>11.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Berezikov</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Flynt</surname><given-names>A.S.</given-names></name>, <name name-style="western"><surname>Hodges</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Rooks</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Hannon</surname><given-names>G.J.</given-names></name>, <name name-style="western"><surname>Lai</surname><given-names>E.C.</given-names></name></person-group>
+<article-title>Evolutionary flux of canonical microRNAs and mirtrons in Drosophila</article-title>. <source>Nat. Genet.</source><year>2010</year>; <volume>42</volume>:<fpage>6</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">20037610</pub-id></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <label>12.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Zhao</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Samal</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Srivastava</surname><given-names>D.</given-names></name></person-group>
+<article-title>Serum response factor regulates a muscle-specific microRNA that targets Hand2 during cardiogenesis</article-title>. <source>Nature</source>. <year>2005</year>; <volume>436</volume>:<fpage>214</fpage>&#x2013;<lpage>220</lpage>.<pub-id pub-id-type="pmid">15951802</pub-id></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <label>13.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Chen</surname><given-names>J.-F.</given-names></name>, <name name-style="western"><surname>Mandel</surname><given-names>E.M.</given-names></name>, <name name-style="western"><surname>Thomson</surname><given-names>J.M.</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>Q.</given-names></name>, <name name-style="western"><surname>Callis</surname><given-names>T.E.</given-names></name>, <name name-style="western"><surname>Hammond</surname><given-names>S.M.</given-names></name>, <name name-style="western"><surname>Conlon</surname><given-names>F.L.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>D.-Z.</given-names></name></person-group>
+<article-title>The role of microRNA-1 and microRNA-133 in skeletal muscle proliferation and differentiation</article-title>. <source>Nat. Genet.</source><year>2006</year>; <volume>38</volume>:<fpage>228</fpage>&#x2013;<lpage>233</lpage>.<pub-id pub-id-type="pmid">16380711</pub-id></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <label>14.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Agarwal</surname><given-names>V.</given-names></name>, <name name-style="western"><surname>Bell</surname><given-names>G.W.</given-names></name>, <name name-style="western"><surname>Nam</surname><given-names>J.-W.</given-names></name>, <name name-style="western"><surname>Bartel</surname><given-names>D.P.</given-names></name></person-group>
+<article-title>Predicting effective microRNA target sites in mammalian mRNAs</article-title>. <source>Elife</source>. <year>2015</year>; <volume>4</volume>:<fpage>e05005</fpage>.</mixed-citation>
+      </ref>
+      <ref id="B15">
+        <label>15.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Paraskevopoulou</surname><given-names>M.D.</given-names></name>, <name name-style="western"><surname>Georgakilas</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Kostoulas</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Vlachos</surname><given-names>I.S.</given-names></name>, <name name-style="western"><surname>Vergoulis</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Reczko</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Filippidis</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Dalamagas</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Hatzigeorgiou</surname><given-names>A.G.</given-names></name></person-group>
+<article-title>DIANA-microT web server v5.0: service integration into miRNA functional analysis workflows</article-title>. <source>Nucleic Acids Res.</source><year>2013</year>; <volume>41</volume>:<fpage>W169</fpage>&#x2013;<lpage>W173</lpage>.<pub-id pub-id-type="pmid">23680784</pub-id></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <label>16.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Wong</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name></person-group>
+<article-title>miRDB: an online resource for microRNA target prediction and functional annotations</article-title>. <source>Nucleic Acids Res.</source><year>2015</year>; <volume>43</volume>:<fpage>D146</fpage>&#x2013;<lpage>D152</lpage>.<pub-id pub-id-type="pmid">25378301</pub-id></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <label>17.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Karagkouni</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Paraskevopoulou</surname><given-names>M.D.</given-names></name>, <name name-style="western"><surname>Chatzopoulos</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Vlachos</surname><given-names>I.S.</given-names></name>, <name name-style="western"><surname>Tastsoglou</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Kanellos</surname><given-names>I.</given-names></name>, <name name-style="western"><surname>Papadimitriou</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Kavakiotis</surname><given-names>I.</given-names></name>, <name name-style="western"><surname>Maniou</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Skoufos</surname><given-names>G.</given-names></name><etal/></person-group>
+<article-title>DIANA-TarBase v8: a decade-long collection of experimentally supported miRNA-gene interactions</article-title>. <source>Nucleic Acids Res.</source><year>2018</year>; <volume>46</volume>:<fpage>D239</fpage>&#x2013;<lpage>D245</lpage>.<pub-id pub-id-type="pmid">29156006</pub-id></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <label>18.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Chou</surname><given-names>C.-H.</given-names></name>, <name name-style="western"><surname>Shrestha</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>C.-D.</given-names></name>, <name name-style="western"><surname>Chang</surname><given-names>N.-W.</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>Y.-L.</given-names></name>, <name name-style="western"><surname>Liao</surname><given-names>K.-W.</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>W.-C.</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>T.-H.</given-names></name>, <name name-style="western"><surname>Tu</surname><given-names>S.-J.</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>W.-H.</given-names></name><etal/></person-group>
+<article-title>miRTarBase update 2018: a resource for experimentally validated microRNA-target interactions</article-title>. <source>Nucleic Acids Res.</source><year>2018</year>; <volume>46</volume>:<fpage>D296</fpage>&#x2013;<lpage>D302</lpage>.<pub-id pub-id-type="pmid">29126174</pub-id></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <label>19.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Ashburner</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Ball</surname><given-names>C.A.</given-names></name>, <name name-style="western"><surname>Blake</surname><given-names>J.A.</given-names></name>, <name name-style="western"><surname>Botstein</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Butler</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Cherry</surname><given-names>J.M.</given-names></name>, <name name-style="western"><surname>Davis</surname><given-names>A.P.</given-names></name>, <name name-style="western"><surname>Dolinski</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Dwight</surname><given-names>S.S.</given-names></name>, <name name-style="western"><surname>Eppig</surname><given-names>J.T.</given-names></name><etal/></person-group>
+<article-title>Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</article-title>. <source>Nat. Genet.</source><year>2000</year>; <volume>25</volume>:<fpage>25</fpage>&#x2013;<lpage>29</lpage>.<pub-id pub-id-type="pmid">10802651</pub-id></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <label>20.</label>
+        <mixed-citation publication-type="journal">
+<collab>The Gene Ontology Consortium</collab>
+<article-title>Expansion of the Gene Ontology knowledgebase and resources</article-title>. <source>Nucleic Acids Res.</source><year>2017</year>; <volume>45</volume>:<fpage>D331</fpage>&#x2013;<lpage>D338</lpage>.<pub-id pub-id-type="pmid">27899567</pub-id></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <label>21.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Huntley</surname><given-names>R.P.</given-names></name>, <name name-style="western"><surname>Sitnikov</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Orlic-Milacic</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Balakrishnan</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>D&#x2019;Eustachio</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Gillespie</surname><given-names>M.E.</given-names></name>, <name name-style="western"><surname>Howe</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Kalea</surname><given-names>A.Z.</given-names></name>, <name name-style="western"><surname>Maegdefessel</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Osumi-Sutherland</surname><given-names>D.</given-names></name><etal/></person-group>
+<article-title>Guidelines for the functional annotation of microRNAs using the Gene Ontology</article-title>. <source>RNA</source>. <year>2016</year>; <volume>22</volume>:<fpage>667</fpage>&#x2013;<lpage>676</lpage>.<pub-id pub-id-type="pmid">26917558</pub-id></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <label>22.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Huntley</surname><given-names>R.P.</given-names></name>, <name name-style="western"><surname>Kramarz</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Sawford</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Umrao</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Kalea</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Acquaah</surname><given-names>V.</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>M.J.</given-names></name>, <name name-style="western"><surname>Mayr</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Lovering</surname><given-names>R.C.</given-names></name></person-group>
+<article-title>Expanding the horizons of microRNA bioinformatics</article-title>. <source>RNA</source>. <year>2018</year>; <volume>24</volume>:<fpage>1005</fpage>&#x2013;<lpage>1017</lpage>.<pub-id pub-id-type="pmid">29871895</pub-id></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <label>23.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Eppig</surname><given-names>J.T.</given-names></name>, <name name-style="western"><surname>Richardson</surname><given-names>J.E.</given-names></name>, <name name-style="western"><surname>Kadin</surname><given-names>J.A.</given-names></name>, <name name-style="western"><surname>Ringwald</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Blake</surname><given-names>J.A.</given-names></name>, <name name-style="western"><surname>Bult</surname><given-names>C.J.</given-names></name></person-group>
+<article-title>Mouse Genome Informatics (MGI): reflecting on 25 years</article-title>. <source>Mamm. Genome</source>. <year>2015</year>; <volume>26</volume>:<fpage>272</fpage>&#x2013;<lpage>284</lpage>.<pub-id pub-id-type="pmid">26238262</pub-id></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <label>24.</label>
+        <mixed-citation publication-type="journal">
+<collab>The RNAcentral Consortium</collab>
+<article-title>RNAcentral: a comprehensive database of non-coding RNA sequences</article-title>. <source>Nucleic Acids Res.</source><year>2017</year>; <volume>45</volume>:<fpage>D128</fpage>&#x2013;<lpage>D134</lpage>.<pub-id pub-id-type="pmid">27794554</pub-id></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <label>25.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Binns</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Dimmer</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Huntley</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Barrell</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>O&#x2019;Donovan</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Apweiler</surname><given-names>R.</given-names></name></person-group>
+<article-title>QuickGO: a web-based tool for Gene Ontology searching</article-title>. <source>Bioinformatics</source>. <year>2009</year>; <volume>25</volume>:<fpage>3045</fpage>&#x2013;<lpage>3046</lpage>.<pub-id pub-id-type="pmid">19744993</pub-id></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <label>26.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Sluijter</surname><given-names>J.P.G.</given-names></name>, <name name-style="western"><surname>van&#xA0;Mil</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>van&#xA0;Vliet</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Metz</surname><given-names>C.H.G.</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Doevendans</surname><given-names>P.A.</given-names></name>, <name name-style="western"><surname>Goumans</surname><given-names>M.-J.</given-names></name></person-group>
+<article-title>MicroRNA-1 and -499 regulate differentiation and proliferation in human-derived cardiomyocyte progenitor cells</article-title>. <source>Arterioscler. Thromb. Vasc. Biol.</source><year>2010</year>; <volume>30</volume>:<fpage>859</fpage>&#x2013;<lpage>868</lpage>.<pub-id pub-id-type="pmid">20081117</pub-id></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <label>27.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Ling</surname><given-names>T.-Y.</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>X.-L.</given-names></name>, <name name-style="western"><surname>Chai</surname><given-names>Q.</given-names></name>, <name name-style="western"><surname>Lau</surname><given-names>T.-W.</given-names></name>, <name name-style="western"><surname>Koestler</surname><given-names>C.M.</given-names></name>, <name name-style="western"><surname>Park</surname><given-names>S.J.</given-names></name>, <name name-style="western"><surname>Daly</surname><given-names>R.C.</given-names></name>, <name name-style="western"><surname>Greason</surname><given-names>K.L.</given-names></name>, <name name-style="western"><surname>Jen</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>L.-Q.</given-names></name><etal/></person-group>
+<article-title>Regulation of the SK3 channel by microRNA-499&#x2013;potential role in atrial fibrillation</article-title>. <source>Hear. Rhythm</source>. <year>2013</year>; <volume>10</volume>:<fpage>1001</fpage>&#x2013;<lpage>1009</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B28">
+        <label>28.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Gerner</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Nenadic</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Bergman</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>LINNAEUS: a species name identification system for biomedical literature</article-title>. <source>BMC Bioinformatics</source>. <year>2010</year>; <volume>11</volume>:<fpage>85</fpage>.<pub-id pub-id-type="pmid">20149233</pub-id></mixed-citation>
+      </ref>
+      <ref id="B29">
+        <label>29.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Wei</surname><given-names>C.-H.</given-names></name>, <name name-style="western"><surname>Kao</surname><given-names>H.-Y.</given-names></name>, <name name-style="western"><surname>Lu</surname><given-names>Z.</given-names></name></person-group>
+<article-title>GNormPlus: an Integrative Approach for Tagging Genes, Gene Families, and Protein Domains</article-title>. <source>Biomed Res. Int.</source><year>2015</year>; <volume>2015</volume>:<fpage>918710</fpage>.<pub-id pub-id-type="pmid">26380306</pub-id></mixed-citation>
+      </ref>
+      <ref id="B30">
+        <label>30.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Pafilis</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Frankild</surname><given-names>S.P.</given-names></name>, <name name-style="western"><surname>Fanini</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Faulwetter</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Pavloudi</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Vasileiadou</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Arvanitidis</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Jensen</surname><given-names>L.J.</given-names></name></person-group>
+<article-title>The species and organisms resources for fast and accurate identification of taxonomic names in text</article-title>. <source>PLoS One</source>. <year>2013</year>; <volume>8</volume>:<fpage>e65390</fpage>.<pub-id pub-id-type="pmid">23823062</pub-id></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <label>31.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Brennecke</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Hipfner</surname><given-names>D.R.</given-names></name>, <name name-style="western"><surname>Stark</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Russell</surname><given-names>R.B.</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>bantam encodes a developmentally regulated microRNA that controls cell proliferation and regulates the proapoptotic gene hid in Drosophila</article-title>. <source>Cell</source>. <year>2003</year>; <volume>113</volume>:<fpage>25</fpage>&#x2013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">12679032</pub-id></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <label>32.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>W.</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>The Hippo pathway acts via p53 and microRNAs to control proliferation and proapoptotic gene expression during tissue growth</article-title>. <source>Biol. Open</source>. <year>2013</year>; <volume>2</volume>:<fpage>822</fpage>&#x2013;<lpage>828</lpage>.<pub-id pub-id-type="pmid">23951408</pub-id></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <label>33.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Weng</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Control of Drosophila Type I and Type II central brain neuroblast proliferation by bantam microRNA</article-title>. <source>Development</source>. <year>2015</year>; <volume>142</volume>:<fpage>3713</fpage>&#x2013;<lpage>3720</lpage>.<pub-id pub-id-type="pmid">26395494</pub-id></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <label>34.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Koutsoulidou</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Mastroyiannopoulos</surname><given-names>N.P.</given-names></name>, <name name-style="western"><surname>Furling</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Uney</surname><given-names>J.B.</given-names></name>, <name name-style="western"><surname>Phylactou</surname><given-names>L.A.</given-names></name></person-group>
+<article-title>Expression of miR-1, miR-133a, miR-133b and miR-206 increases during development of human skeletal muscle</article-title>. <source>BMC Dev. Biol.</source><year>2011</year>; <volume>11</volume>:<fpage>34</fpage>.<pub-id pub-id-type="pmid">21645416</pub-id></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <label>35.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Pisano</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Altomare</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Cervio</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Barile</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Rocchetti</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Ciuffreda</surname><given-names>M.C.</given-names></name>, <name name-style="western"><surname>Malpasso</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Copes</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Mura</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Danieli</surname><given-names>P.</given-names></name><etal/></person-group>
+<article-title>Combination of miRNA499 and miRNA133 exerts a synergic effect on cardiac differentiation</article-title>. <source>Stem Cells</source>. <year>2015</year>; <volume>33</volume>:<fpage>1187</fpage>&#x2013;<lpage>1199</lpage>.<pub-id pub-id-type="pmid">25534971</pub-id></mixed-citation>
+      </ref>
+      <ref id="B36">
+        <label>36.</label>
+        <mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name name-style="western"><surname>Jalali</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Ramanathan</surname><given-names>G.K.</given-names></name>, <name name-style="western"><surname>Parthasarathy</surname><given-names>P.T.</given-names></name>, <name name-style="western"><surname>Aljubran</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Galam</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Yunus</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Garcia</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Cox</surname><given-names>R.R.</given-names></name>, <name name-style="western"><surname>Lockey</surname><given-names>R.F.</given-names></name>, <name name-style="western"><surname>Kolliputi</surname><given-names>N.</given-names></name></person-group>
+<article-title>Mir-206 regulates pulmonary artery smooth muscle cell proliferation and differentiation</article-title>. <source>PLoS One</source>. <year>2012</year>; <volume>7</volume>:<fpage>e46808</fpage>.<pub-id pub-id-type="pmid">23071643</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
