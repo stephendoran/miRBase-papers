@@ -58,8 +58,8 @@ def classify_sentences(sentences):
 
 # Read the input file
 data = defaultdict(list)
-input_file = "/Users/debjitpramanik/Documents/SGJ_lab/text_mining_stuff/text_mining_outputs/old_noncomm_sentences_A-B_1.txt"
-output_file = "/Users/debjitpramanik/Documents/SGJ_lab/text_mining_stuff/llama-70b_500_2.csv"
+input_file = "Documents/SGJ_lab/text_mining_stuff/text_mining_outputs/old_noncomm_sentences_A-B_1.txt"
+output_file = "Documents/SGJ_lab/text_mining_stuff/llama-70b_500_2.csv"
 error_log_file = "llm_error.txt"  # Error log file
 
 parser = ag.ArgumentParser(description="Read the CSV file that has sentence info and classify them.")
