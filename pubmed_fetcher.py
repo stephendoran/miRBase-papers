@@ -4,7 +4,7 @@ import calendar
 from bs4 import BeautifulSoup
 from Bio import Entrez as en
 
-en.email = "debjit20504@iiitd.ac.in" # Replace with your email
+en.email = "" # Replace with your email
 en.api_key = os.getenv("NCBI_API_KEY") # Instead of this you can just put your API key, but we carefull others can see it and might use it :)
 
 output_dir = "/Users/user/Documents/papers/output"
