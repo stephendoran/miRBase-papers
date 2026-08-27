@@ -56,7 +56,6 @@ for file in files:
          except:
             continue
          if score != 0:
-            print("LOOP ENTERED")
             terms = line.split('\t')[4].strip()
             try:
                 Sentence.objects.get(text=sentence)
